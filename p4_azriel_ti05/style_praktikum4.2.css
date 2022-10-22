@@ -1,0 +1,93 @@
+h1 {
+    text-align: center;
+    color: black; font-weight: bold;
+    font-style: courier;
+}
+div {
+    font-style: courier;
+    color: black;
+}
+.container {
+    width: 365px;
+    height: 195px;
+    border: 1px solid black;
+    margin: 3px;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container div {
+    width: 165px;
+    height: 85px;
+    float: left;
+    background-color: rgb(35, 121, 207);
+    margin: 2px;
+}
+.abc {
+    display: inline;
+    float:left; margin-left:20px;
+    font-size : 17px;
+}
+.abcc {
+    width: 98%;
+    background-color: white;
+}
+.efg {
+    display: inline;
+    float:right;
+    margin-right:50px;
+    font-size: 17px;
+    text-align:right;
+}
+.ghi {
+    float: left;
+    margin-left:50px;
+}
+.jkl {
+    font-size: 17px;
+    margin-right: 50px;
+}
+.opq {
+    width: 300px;
+    float: left;
+    margin-left: 150px;
+}
+.rst {
+    width: 300px;
+    float: left;
+    
+    
+}
+.uvw {
+    width: 300px;
+    float: left;
+    
+}
+video{
+    
+    width: 300px;
+    height: 175px;
+}
+img{
+    
+    width: 147px;
+    height: 86px;
+}
+.Q{
+    width: 200px;
+    height: 198px;
+}
+#who {
+    margin-left: 60px;
+}
+
+.gam {
+    width: 35px;
+    height: 27px;
+    margin-bottom: 11px;
+}
+
+#tool {
+    margin-left: 25px;
+}
