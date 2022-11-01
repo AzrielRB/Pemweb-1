@@ -1,0 +1,73 @@
+body {
+    background-color: wheat;
+}
+
+#header {
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+#header blockquote {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px dotted black;
+    text-align: center;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: unset;
+}
+
+.judul>li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.judul>li>a {
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.gambar {
+    display: flex;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    align-items: center;
+}
+
+.koleksi {
+    display: flex;
+    width: 2500px;
+    height: 250px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.promo h2 {
+    color: red;
+    text-align: center;
+}
+
+.promo h3{
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+ol  {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
