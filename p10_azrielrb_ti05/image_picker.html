@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body>
+    <select name="dropdown_img" id="dropdown_img" onchange="gambar()">
+        <option hidden>---PILIH GAMBAR---</option>
+        <option value="gorila">Gorila</option>
+        <option value="singa">Singa</option>
+        <option value="elang">Elang</option>
+    </select>
+    <br />
+    <img alt="gambar" id="image" />
+
+    <script>
+        function gambar() {
+            let drop_img = document.getElementById("dropdown_img").value;
+            let image = document.getElementById("image");
+
+            if (drop_img == "gorila") {
+                image.setAttribute(
+                    "src",
+                    "http://c.files.bbci.co.uk/A04E/production/_117883014_gorilla_dianfosseygorillafund1.jpg"
+                );
+                alert("Ini Gorilla");
+            } else if (drop_img == "singa") {
+                image.setAttribute(
+                    "src",
+                    "https://2.bp.blogspot.com/-CEFl_aNG7I8/VTZg1cN7O0I/AAAAAAAAcow/iDcwGXRH60c/w320-h179/singa.JPG"
+                );
+                alert("Ini Singa");
+            } else if (drop_img == "Elang") {
+                image.setAttribute(
+                    "src",
+                    "https://2.bp.blogspot.com/-CEFl_aNG7I8/VTZg1cN7O0I/AAAAAAAAcow/iDcwGXRH60c/w320-h179/singa.JPG"
+                );
+                alert("Ini Elang");
+            } else{
+                alert("Tidak ada Gambar");
+            }    
+        }
+    </script>
+</body>
+</html>
